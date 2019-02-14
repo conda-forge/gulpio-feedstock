@@ -1,5 +1,5 @@
 {% set name = "gulpio" %}
-{% set version = "533.63" %}
+{% set version = "540.66" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cdc8c084bff58bdac25e6050f092ed395d883a9621844ffac0d6d6f394f32a6e
+  sha256: d7ceb4d8115b28ed22b6572d06797df417c2a3560d4efb050b489dbba5e27cdb
 
 build:
   number: 0
